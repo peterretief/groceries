@@ -1,0 +1,6 @@
+<h1>{{ item.item_text }}</h1>
+<ul>
+{% for i in item.all %}
+    <li>{{ i.item_text }}</li>
+{% endfor %}
+</ul>
